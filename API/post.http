@@ -1,0 +1,13 @@
+POST  http://localhost:8000/post HTTP/1.1
+content-type: application/json
+
+{ 
+  "user_id": 111,
+  "biin": "960825300817",
+  "first_name": "TestName",
+  "last_name": "TestSurname",
+  "passwrd": "12345",
+  "phone": "77077663456",
+  "email": "kmf.test@kz",
+  "type": "users"
+}
